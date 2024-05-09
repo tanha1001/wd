@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- self -->
+    <form action="" align="center">
+        <fieldset>
+        <legend>Login page</legend>
+        <!-- normal html -->
+        <label for="">name:-</label>
+        <input type="text" placeholder="enter your name" value="" name=""><br>
+        <label for="">password</label>
+        <input type="password" placeholder="Enter your password"><br>
+
+        <!-- html5 -->
+        <input type="date">
+        <input type="datetime-local"><br>
+        <!-- checkbox -->
+        <input type="checkbox" value="html">html 
+        <input type="checkbox">css 
+        <input type="checkbox"> JavaScript
+        <input type="checkbox"> Jquery <br>
+
+        <!-- redio button -->
+
+        gender:- 
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender"> Famale
+        <input type="radio" name="gender"> Other <br>
+
+        <input type="range" step="4"> <br>
+        <input type="url">
+        
+        <input type="image" src=""> <br>
+        <!-- file  -->
+        <input type="file" multiple> <br>
+        <!-- email -->
+        <input type="email" placeholder="Email"> <br>
+        <input type="number">
+        <input type="color" >
+
+        <input type="submit" value="update">
+        <input type="reset">
+        <!-- <button>submit</button> -->
+    </fieldset>
+    </form>
+</body>
+</html>
